@@ -1,6 +1,6 @@
-# Caesura website project
+# Orgic website project
 
-This repository is intended as the main source code behind the Caesura project. More details about the nature of the project will be added later.
+This repository is intended as the main source code behind the Orgic project. More details about the nature of the project will be added later.
 
 For details on contributing to the project contact [caesuradev@protonmail.com](caesuradev@protonmail.com)
 
@@ -31,7 +31,7 @@ For adding SSH keys to your Github profile [read this](https://docs.github.com/e
 
 After you have successfully installed Git, clone this repository to your computer with
 
-`git clone git@github.com:caesura-dev/caesura.git`
+`git clone git@github.com:caesura-dev/Orgic.git`
 
 ### Making changes
 
@@ -49,7 +49,7 @@ Then push your changes to the remote repository with
 
 `git push origin <new-branch-name-here>`
 
-Now you've successfully added code to the codebase and committed your work. To merge your work to the main branch and publish your work to the world, navigate over to https://github.com/caesura-dev/caesura and you should see a big banner on the top of the page saying "Branch `<new-branch>` has new changes" with a button prompting you to start a new pull request. Click the button to start a pull request and that will take you to a page where you can detail what you've changed, and make sure to request reviews (this should be done automatically). After your code has been reviewed and approved, you can click on the big green merge button and then delete your working branch.
+Now you've successfully added code to the codebase and committed your work. To merge your work to the main branch and publish your work to the world, navigate over to https://github.com/caesura-dev/Orgic and you should see a big banner on the top of the page saying "Branch `<new-branch>` has new changes" with a button prompting you to start a new pull request. Click the button to start a pull request and that will take you to a page where you can detail what you've changed, and make sure to request reviews (this should be done automatically). After your code has been reviewed and approved, you can click on the big green merge button and then delete your working branch.
 
 ### Tracking tasks
 
