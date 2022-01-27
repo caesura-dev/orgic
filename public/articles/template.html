@@ -6,9 +6,11 @@
         <title> wip </title>
         <link href="../main.css" type="text/css" rel="stylesheet">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.4.19/mammoth.browser.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/2.6.1/jszip.js"></script>
+        <script src="../scripts/odt.js"></script>
         <script src="../scripts/body.js"></script>
         <script>
-            body("../submitted/tests/test1/test.docx");
+            body("../submitted/tests/test1/test.docx","docx"); //body(string filepath, string doctype) //doctype accepts the exact strings "docx" and "odt", anything else will throw an error
         </script>
         
     </head>
