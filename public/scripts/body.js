@@ -9,7 +9,7 @@ function body(file, type)
                 mammoth.convertToHtml({arrayBuffer : ab})
                 .then(function(result){
                     var html = result.value; // The generated HTML
-                    document.body.innerHTML = html;
+                    document.getElementById("content").innerHTML = html;
                 })
                 .done();
             }
@@ -18,13 +18,17 @@ function body(file, type)
                 try 
                 {
                     html = new ODTDocument(ab).getHTML();
-                    document.body.innerHTML = html;
+                    document.getElementById("content").innerHTML = html;
                 } 
                 catch(e) 
                 {
                     alert("Couldn't parse odt file.");
                     throw e;
                 }
+            }
+            if (type != "docx" && type != "odt")
+            {
+                alert("Document type out of bounds");
             }
         })
 }
