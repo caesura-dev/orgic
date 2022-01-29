@@ -1,6 +1,6 @@
 [
-    {"filename":"template.html", "title":"title1", "edition":0, "author":"Contributors of the 0th Edition", "category":"aporia"},
-    {"filename":"template.html", "title":"title2", "edition":0, "author":"Contributors of the 0th Edition", "category":"concresence"},
-    {"filename":"template.html", "title":"title3", "edition":0, "author":"Contributors of the 0th Edition", "category":"aporia"},
-    {"filename":"template.html", "title":"title4", "edition":0, "author":"Contributors of the 0th Edition", "category":"concresence"}
+    {"filename":"template.html", "title":"title1", "edition":0, "author":"Contributors of the 0th Edition", "category":"aporia", "date":"1/28/2022"},
+    {"filename":"template.html", "title":"title2", "edition":0, "author":"Contributors of the 0th Edition", "category":"concresence", "date":"1/28/2022"},
+    {"filename":"template.html", "title":"title3", "edition":0, "author":"Contributors of the 0th Edition", "category":"aporia", "date":"1/28/2022"},
+    {"filename":"template.html", "title":"title4", "edition":0, "author":"Contributors of the 0th Edition", "category":"concresence", "date":"1/28/2022"}
 ]

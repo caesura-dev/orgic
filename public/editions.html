@@ -1,13 +1,19 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="main.css">
-		<img src="logo.png" height="125px" width="125px" align="right">
-		<h3>editions</h3>
+		<img src="logo.png" height="125px" width="125px" class="float-right">
+		<div class="pagename">
+			<h3>editions</h3>
+			<a href="index.html" align="center"><p> ←back to home </p></a>
+		</div>
 	</head>
 	<body>
-		<div class="links">
-			<i>site still under construction</i>
+		<div id="editions" class="dynamicList">
+			<div class="indent">
+				
 			</div>
-
+		</div>
 	</body>
+	<script src="scripts/list.js"></script>
+	<script> populateList("editions"); </script>
 </html>
