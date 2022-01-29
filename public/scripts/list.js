@@ -20,7 +20,7 @@ function populateList(sortBy){
                     if(articles[i].edition > currentEd){
                         currentEd = articles[i].edition;
                         totalEditions++;
-                        list.innerHTML += "<h5>Edition "+currentEd+"</h5> <div class='indent'></div>"
+                        list.innerHTML += "<h5>Edition "+currentEd+" || "+articles[i].date+"</h5> <div class='indent'></div>"
                     }
                     var filepath = 'articles/'+articles[i].edition+'/'+articles[i].filename;
                     sublist[totalEditions-1].innerHTML += "<a href='"+filepath+"'>"+articles[i].title+"</a></br>";
