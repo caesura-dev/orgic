@@ -43,7 +43,9 @@ ol {
 ol ol {
   padding-right: 0px;
 }
-
+header a p {
+	text-align: center;
+}
 #axioms {
   margin-top: 3vh;
   margin-bottom: 15vw;
@@ -54,11 +56,15 @@ ol ol {
   margin-left: 15vw;
   margin-right: 15vw;
   margin-bottom: 7vh;
+  font-size: 20px;
 }
 #submissions i {
   font-weight: normal;
 }
-
+#submissions p {
+	font-size: 1.1rem;
+	text-align: center;
+}
 #axioms h4 {
   text-align: left;
 }
@@ -83,8 +89,9 @@ ol ol {
 }
 .pagename {
   margin: auto;
-  width: 50%;
+  width: 60%;
   margin-bottom: 0.5vh;
+  text-align: center;
 }
 .pagename a p {
   margin-top: 0px;
@@ -92,6 +99,7 @@ ol ol {
 .dynamicList {
   margin-top: 10%;
   margin-left: 10%;
+  text-align: left;
 }
 .dynamicList a {
   display: block;
@@ -101,9 +109,11 @@ ol ol {
 .article {
   margin: auto;
   width: 50%;
+  
 }
 .article p {
   font-weight: normal;
+  text-align: center;
 }
 .homelogo {
   width: 14vh;
@@ -128,10 +138,29 @@ ol ol {
 }
 
 .pageDescription {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
+  margin-top: 25px;
+  text-align: center;
+  font-style: italic;
+
 }
 
 @media screen and (min-width: 600px) {
-  ol ol p {
+	.innerList,.indentList{
+		font-size: 1.2rem;
+	}
+  #submissions {
+    margin:auto;
+    margin-top:4vh;
+    width:40%
   }
+	#submissions p {
+		font-size: 1.4rem;
+	}
+	.articleHeader p{
+		font-size: 1.15rem;
+	}
+	.content p{
+		font-size: 1.3rem;
+	}
 }
