@@ -172,3 +172,10 @@ header a p {
 .articleLinks a {
   margin: 1rem;
 }
+
+.video {
+  margin-left: auto;
+  position: absolute;
+  left: 13.5vw;
+  width: 75vw;
+}
