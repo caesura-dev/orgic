@@ -44,7 +44,7 @@ ol ol {
   padding-right: 0px;
 }
 header a p {
-	text-align: center;
+  text-align: center;
 }
 #axioms {
   margin-top: 3vh;
@@ -62,8 +62,8 @@ header a p {
   font-weight: normal;
 }
 #submissions p {
-	font-size: 1.1rem;
-	text-align: center;
+  font-size: 1.1rem;
+  text-align: center;
 }
 #axioms h4 {
   text-align: left;
@@ -109,7 +109,6 @@ header a p {
 .article {
   margin: auto;
   width: 50%;
-  
 }
 .article p {
   font-weight: normal;
@@ -142,25 +141,34 @@ header a p {
   margin-top: 25px;
   text-align: center;
   font-style: italic;
-
 }
 
 @media screen and (min-width: 600px) {
-	.innerList,.indentList{
-		font-size: 1.2rem;
-	}
-  #submissions {
-    margin:auto;
-    margin-top:4vh;
-    width:40%
+  .innerList,
+  .indentList {
+    font-size: 1.2rem;
   }
-	#submissions p {
-		font-size: 1.4rem;
-	}
-	.articleHeader p{
-		font-size: 1.15rem;
-	}
-	.content p{
-		font-size: 1.3rem;
-	}
+  #submissions {
+    margin: auto;
+    margin-top: 4vh;
+    width: 40%;
+  }
+  #submissions p {
+    font-size: 1.4rem;
+  }
+  .articleHeader p {
+    font-size: 1.15rem;
+  }
+  .content p {
+    font-size: 1.3rem;
+  }
+}
+
+.articleLinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.articleLinks a {
+  margin: 1rem;
 }
