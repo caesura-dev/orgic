@@ -1,41 +1,56 @@
 <!DOCTYPE html>
-
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title> orgic || wip </title> <!-- replace wip with article title -->
+        <title> orgic || zeroth edition </title> <!-- replace wip with article title -->
         <link rel="stylesheet" href="../../main.css">
-		<img src="../../logo.png" height="125px" width="125px" class="float-right pagelogo">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.4.19/mammoth.browser.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/2.6.1/jszip.js"></script>
-        <script src="../../scripts/odt.js"></script>
-        
-        
     </head>
     <body> <!-- edit the information for these default fields to match the article obviously! -->
-        <header class="pagename">
-                <a href="../../index.html" align="center">←back to home</a>
-        </header>
         <div class="article">
+            <img src="../../logo.png" height="125px" width="125px" class="float-right pagelogo">
+            <header class="pagename">
+                <a href="../../editions.html" >←back to editions</a>
+            </header>
             <div class="articleHeader">
-                <p><span> contributors of the 0th edition </span> <span>//</span> <span> category </span></p>
-                <h1> title </h1>
+                <p><span> contributors of the 0st edition </span></p>
+                <h1> template </h1>
                 <br>
             </div>
-            <div class="content">
-                
+
+
+            <div class="contentcanvas">
+                <div class="container"></div>
             </div>
+
+
+            <video controls="controls" src="changeme">
+                Your browser does not support the HTML5 Video element.
+            </video>
+
+
+            <img src="changeme" alt="changeme">
+
+            
+            <audio controls="controls" src="changeme">
+                Your browser does not support the HTML5 Audio element.
+            </audio>
+
+
+            <br>
+            <a href="changeme">docx</a><br>
+            <a href="changeme">pdf</a><br>
+            <a href="changeme">raw text</a><br>
+            <a href="changeme">mp4</a><br>
+            <a href="changeme">mp3</a><br>
         </div>
         
     </body>
-
-    <script src="../../scripts/body.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.2.2/pdf_viewer.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.2.2/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.2.2/pdf_viewer.js"></script>
+    <script src="../../scripts/bodypdf.js"></script>
     <script>
-        body("../../submitted/tests/test1/test.docx","docx"); //body(string filepath, string doctype) 
-        //doctype accepts the exact strings "docx" and "odt", anything else will throw an error
-        //two ../../ must be placed to return to the public directory; this hinges on the fact that you place articles in the proper places!
+        body("changeme",1);
     </script>
-    <!-- YOU MUST FOLLOW THE ORGANIZATIONAL STRUCTURE OF "public/articles/[insertEditionNumberHere]/[ThisFile].html"!!! THIS FILE MUST BE
-            PLACED EXACTLY TWO FOLDERS DEEP RELATIVE TO origic/public/ IF YOU WANT THESE PATHS TO FUNCTION PROPERLY!!!-->
 </html>
