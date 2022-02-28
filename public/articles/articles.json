@@ -1,3 +1,7 @@
 [
-    
+    {"filename":"angel.html", "title":"Angel", "edition":1, "author":"Contributors of the 1st Edition", "category":"aporia", "date":"2/25/2022"}, 
+    {"filename":"anencounterwithnonpoetry.html", "title":"An Encounter With Non-poetry", "edition":1, "author":"Contributors of the 1st Edition", "category":"aporia", "date":"2/25/2022"},
+    {"filename":"thisbodycantbemine.html", "title":"This Body Can't Be Mine", "edition":1, "author":"Contributors of the 1st Edition", "category":"aporia", "date":"2/25/2022"},  
+    {"filename":"sadetruantrealism.html", "title":"Sade: Truant Realism", "edition":1, "author":"Contributors of the 1st Edition", "category":"aporia", "date":"2/25/2022"},  
+    {"filename":"secondchildhoodoflanguage.html", "title":"The Second Childhood of Language", "edition":1, "author":"Contributors of the 1st Edition", "category":"aporia", "date":"2/25/2022"}
 ]
